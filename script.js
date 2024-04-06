@@ -1,4 +1,4 @@
-// we are fetching data from api             github reset api
+// we are fetching data from api          
 const url =  "https://api.github.com/users";
 
 const searchInputEl = document.getElementById("searchInput");
