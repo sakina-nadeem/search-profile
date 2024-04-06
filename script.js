@@ -64,7 +64,7 @@ const fetchProfile = async () => {
       loadingEl.innerText = "";
       profileContainerEl.innerHTML = generateProfile(data);
     } else {
-      loadingEl.innerHTML = data.message;
+      loadingEl.innerHTML = "not found";
       loadingEl.style.color = "red";
       profileContainerEl.innerText = "";
 
