@@ -26,15 +26,20 @@ body {
     gap: 4rem;
 }
 
+/* .heading {
+    font-size: 4rem;
+} */
+
 .search {
     display:flex;
     width: 50%;
     max-width: 60rem;
+    max-width: 46%;
 }
 
 .search input {
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     border: none;
     outline: none;
     border: 1px solid gray;
@@ -44,10 +49,11 @@ body {
     outline: 1px solid purple;
 }
 .primary-btn {
-    background-color: purple;
+    background-color: rgb(156, 31, 125);
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border: none;
+    font-size: 1.8rem;
 }
 .primary-btn:hover {
     background-color: rgb(92, 16, 92);
